@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use utf8;
-use open ":encoding(euc-jp)";
+use open ":utf8";
 use open ":std";
 while (<>) {
   my @list = split(',');

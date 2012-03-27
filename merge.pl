@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use utf8;
-use open ":encoding(euc-jp)";
+use open ":utf8";
 use open ":std";
 
 open(RDST, '<', 'miit_rs.csv') or die("can't open miit_rs.csv");
